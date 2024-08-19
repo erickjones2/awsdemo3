@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-deployment3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: my-app3
+  template:
+    metadata:
+      labels:
+        app: my-app3
+    spec:
+      containers:
+      - name: springbootdemo
+        imagePullPolicy: Always
+        image: 898334718399.dkr.ecr.us-east-1.amazonaws.com/springboot-test-eks3:${{FD_PROJECT_VERSION}}
+        ports:
+        - containerPort: 8080
+        envFrom:
+        - configMapRef:
+            name: springboot-demo-config3
+        - secretRef:
+            name: springbootdemo-secret
+      imagePullSecrets:
+      - name: myregistrykey
