@@ -49,7 +49,7 @@
 						}
 					}
 				},
-				"url": "http://a36cc12022e5f4440805c9b9cc5bf390-2063831906.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
+				"url": "http://a69d8f1ee5a6c4a62a443175599789b4-817077760.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
 			},
 			"response": []
 		},
@@ -99,7 +99,7 @@
 						}
 					}
 				},
-				"url": "http://a36cc12022e5f4440805c9b9cc5bf390-2063831906.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
+				"url": "http://a69d8f1ee5a6c4a62a443175599789b4-817077760.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
 			},
 			"response": []
 		},
@@ -149,7 +149,7 @@
 						}
 					}
 				},
-				"url": "http://a36cc12022e5f4440805c9b9cc5bf390-2063831906.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
+				"url": "http://a69d8f1ee5a6c4a62a443175599789b4-817077760.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
 			},
 			"response": []
 		},
@@ -199,7 +199,7 @@
 						}
 					}
 				},
-				"url": "http://a36cc12022e5f4440805c9b9cc5bf390-2063831906.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
+				"url": "http://a69d8f1ee5a6c4a62a443175599789b4-817077760.us-east-1.elb.amazonaws.com:80/queryService/queryLog"
 			},
 			"response": []
 		}

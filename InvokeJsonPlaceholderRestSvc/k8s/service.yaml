@@ -4,6 +4,7 @@ metadata:
   name: my-service3
 spec:
   type: LoadBalancer
+  loadBalancerIP: a69d8f1ee5a6c4a62a443175599789b4-817077760.us-east-1.elb.amazonaws.com
   ports:
   - port: 80
     targetPort: 8080
